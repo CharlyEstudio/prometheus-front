@@ -1,13 +1,14 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import star from './star.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={star} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Green Kat
         </p>
         <a
           className="App-link"
@@ -15,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Shalik
         </a>
       </header>
     </div>
