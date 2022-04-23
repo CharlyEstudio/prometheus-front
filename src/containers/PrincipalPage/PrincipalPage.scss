@@ -1,0 +1,13 @@
+@import '../../App.scss';
+
+.principal-page {
+    height: 100vh;
+    width: 100vw;
+    background: $background-black80;
+    color: $font-white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
