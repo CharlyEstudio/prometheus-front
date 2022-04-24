@@ -1,13 +1,12 @@
 import { types } from "./types/types";
 import uuid from 'react-uuid';
+import data from './data/data';
 
 export const id = uuid();
 
 const initialState = {
     uuid: uuid(),
-    name: 'Carlos Ramirez',
-    email: 'pingestudio@gmail.com',
-    rol: 'Software Developer Senior'
+    data
 };
 
 export const sessionReducer = (state = initialState, action) => {
@@ -20,7 +19,7 @@ export const sessionReducer = (state = initialState, action) => {
         default:
             return {
                 uuidSession: id,
-                state
+                ...state
             };
     }
 }

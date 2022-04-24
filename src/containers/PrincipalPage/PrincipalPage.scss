@@ -1,13 +1,16 @@
 @import '../../App.scss';
 
 .principal-page {
-    height: 100vh;
-    width: 100vw;
-    background: $background-black80;
+    background: $background-black60;
     color: $font-white;
-
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+
+    .main {
+        width: 100%;
+    }
 }
