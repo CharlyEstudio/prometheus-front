@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 // SCSS
 import './PrincipalPage.scss';
 
+// Containers
+import ServiciosContainer from '../ServiciosContainer/ServiciosContainer';
+
 export default class PrincipalPage extends Component {
   render() {
     return (
@@ -10,8 +13,8 @@ export default class PrincipalPage extends Component {
         <header>
           Nav
         </header>
-        <div>
-          Contenido/Cuerpo
+        <div className='main'>
+          <ServiciosContainer />
         </div>
         <footer>
           Footer
