@@ -1,0 +1,44 @@
+@import '../../App.scss';
+
+// .Tecnologia {
+//     padding: 70px 20px 120px 20px;
+//     position: relative;
+
+//     &__parallax {
+//         overflow: hidden;
+
+//         &__element1 {
+//             position: absolute;
+//             z-index: 9999;
+//             top: -4%;
+//             user-select: none;
+//             right: -7%;
+//             transform: translate3d(0px, -62px, 0px);
+//         }
+//     }
+//     &__logo-top{
+//         grid: 0;   
+//     }
+//     &__zone {
+//         flex: 0;
+//     }
+//     &__logos-bot{
+//         grid: 0;
+//     }
+//     &__title-h2 {
+
+//       font-size: 46px;
+//       color: $font-white;
+//       font-weight: 900;
+//       z-index: 999;
+//       display:flex;
+//       align-items: center;
+//       justify-content: center;
+
+
+//       span {
+//           color: $font-green;
+//           font-size: 4rem;      
+//       }
+//   }
+//   }
