@@ -3,12 +3,12 @@
 .principal-page {
     background: $background-black60;
     color: $font-white;
-    height: 100vh;
+    // height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    // position: fixed;
 
     .main {
         width: 100%;
