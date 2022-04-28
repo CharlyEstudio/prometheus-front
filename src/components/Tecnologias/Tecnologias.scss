@@ -33,59 +33,92 @@
 
             &__svg {
                 fill: $color-grey;
+
             }
 
             &__svg:hover {
                 fill: $color-green;
                 transition: all .3s ease;
+                animation: rubberBand 1s;
+
             }
 
             p {
                 color: $color-grey;
             }
+
+            @keyframes rubberBand {
+                from {
+                    transform: scale3d(1, 1, 1);
+                }
+
+                30% {
+                    transform: scale3d(1.25, 0.75, 1);
+                }
+
+                40% {
+                    transform: scale3d(0.75, 1.25, 1);
+                }
+
+                50% {
+                    transform: scale3d(1.15, 0.85, 1);
+                }
+
+                65% {
+                    transform: scale3d(.95, 1.05, 1);
+                }
+
+                75% {
+                    transform: scale3d(1.05, .95, 1);
+                }
+
+                100% {
+                    transform: scale3d(1, 1, 1);
+                }
+            }
         }
     }
+
+    // .Tecnologia {
+    //     padding: 70px 20px 120px 20px;
+    //     position: relative;
+
+    //     &__parallax {
+    //         overflow: hidden;
+
+    //         &__element1 {
+    //             position: absolute;
+    //             z-index: 9999;
+    //             top: -4%;
+    //             user-select: none;
+    //             right: -7%;
+    //             transform: translate3d(0px, -62px, 0px);
+    //         }
+    //     }
+    //     &__logo-top{
+    //         grid: 0;   
+    //     }
+    //     &__zone {
+    //         flex: 0;
+    //     }
+    //     &__logos-bot{
+    //         grid: 0;
+    //     }
+    //     &__title-h2 {
+
+    //       font-size: 46px;
+    //       color: $font-white;
+    //       font-weight: 900;
+    //       z-index: 999;
+    //       display:flex;
+    //       align-items: center;
+    //       justify-content: center;
+
+
+    //       span {
+    //           color: $font-green;
+    //           font-size: 4rem;      
+    //       }
+    //   }
+    //   }
 }
-
-// .Tecnologia {
-//     padding: 70px 20px 120px 20px;
-//     position: relative;
-
-//     &__parallax {
-//         overflow: hidden;
-
-//         &__element1 {
-//             position: absolute;
-//             z-index: 9999;
-//             top: -4%;
-//             user-select: none;
-//             right: -7%;
-//             transform: translate3d(0px, -62px, 0px);
-//         }
-//     }
-//     &__logo-top{
-//         grid: 0;   
-//     }
-//     &__zone {
-//         flex: 0;
-//     }
-//     &__logos-bot{
-//         grid: 0;
-//     }
-//     &__title-h2 {
-
-//       font-size: 46px;
-//       color: $font-white;
-//       font-weight: 900;
-//       z-index: 999;
-//       display:flex;
-//       align-items: center;
-//       justify-content: center;
-
-
-//       span {
-//           color: $font-green;
-//           font-size: 4rem;      
-//       }
-//   }
-//   }
