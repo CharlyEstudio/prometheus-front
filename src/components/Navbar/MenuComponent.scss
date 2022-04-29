@@ -1,0 +1,49 @@
+.nav {
+    &__menu {
+        ul {
+            display: flex;
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+            li {
+                list-style: none;
+                scroll-behavior: smooth;
+                -webkit-overflow-scrolling: touch;
+                &:last-child {
+                    margin-left: 0;
+                }
+                &:hover a::before {
+                    transition: all .1s;
+                }
+                &:hover a::after {
+                    transition: all .1s;
+                }
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 18px;
+                    transition: all .2s ease-in-out;
+                    scroll-behavior: smooth;
+                    -webkit-overflow-scrolling: touch;
+                    &::before {
+                        content: '<';
+                        color: transparent;
+                        font-weight: bold;
+                        position: relative;
+                        top: 1px;
+                    }
+                    &::after {
+                        content: '>';
+                        color: transparent;
+                        font-weight: bold;
+                        position: relative;
+                        top: 1px;
+                    }
+                    &:hover {
+                        color: #64F4AC;
+                        transition: all .2s ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+}
