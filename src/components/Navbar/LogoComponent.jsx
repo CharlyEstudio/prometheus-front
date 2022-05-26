@@ -10,7 +10,7 @@ export const LogoComponent = () => {
   return (
     <div className='nav__logo'>
       <a href="#home">
-        <img className='nav__img' src={ logo } />
+        <img className='nav__img' alt='logo'src={ logo } />
       </a>
     </div>
   )
