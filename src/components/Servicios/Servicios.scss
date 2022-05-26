@@ -1,0 +1,133 @@
+@import '../../App.scss';
+
+.servicios {
+    padding: 70px 20px 120px 20px;
+    // position: relative;
+
+    &__parallax {
+        overflow: hidden;
+
+        &__element1 {
+            position: absolute;
+            z-index: 9999;
+            top: -4%;
+            user-select: none;
+            right: -7%;
+            transform: translate3d(0px, -62px, 0px);
+
+            img {
+                max-width: 100%;
+                width: 100%;
+                display: block;
+                object-fit: cover;
+                object-position: center center;
+            }
+        }
+    }
+
+    &__title-h2 {
+        font-size: 46px;
+        color: $font-white;
+        font-weight: 900;
+        z-index: 999;
+
+        span {
+            color: $font-green;
+            font-size: 4rem;
+        }
+    }
+
+    &__row {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-around;
+
+        &__column {
+            flex: 2;
+            padding: 0 40px 0 0;
+
+            &__card {
+                background: $background-black60;
+                padding: 30px;
+                margin: 10px 0;
+                border-radius: 10px;
+
+                &__title {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    h3 {
+                        font-size: 32px;
+                        font-weight: 600;
+                        transition: all .3s ease;
+                        color: $color-grey-ligth;
+                    }
+
+                    &__svg {
+                        fill: $color-grey;
+                    }
+                }
+
+                &__description {
+                    font-size: 20px;
+                    font-weight: 400;
+                    color: $font-grey;
+                    margin-top: 8px;
+                    margin-bottom: 32px;
+                }
+
+                &__enlace {
+                    font-size: 16px !important;
+                    font-weight: 700;
+                    color: $font-grey;
+                    text-decoration: underline;
+                    transition: all .3s ease;
+                }
+            }
+
+            &__card:hover h3, &__card:hover a, &__card:hover .services__title--svg  {
+                color: $font-green;
+                transition: all .3s ease;
+            }
+
+            &__card:hover .services__title--svg  {
+                fill: $font-green;
+            }
+
+            &__about {
+                padding: 30px;
+
+                &__title {
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: $font-grey;
+                }
+
+                &__name {
+                    font-size: 38px;
+                    font-weight: 600;
+                    color: $font-white;
+                }
+
+                &__description {
+                    font-size: 20px;
+                    font-weight: 400;
+                    color: $font-grey-dark;
+                    text-align: justify;
+                }
+
+                &__message {
+                    margin-top: 32px;
+                    font-size: 20px;
+                    font-weight: 400;
+                    color: $font-green;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}
