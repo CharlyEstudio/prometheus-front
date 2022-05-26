@@ -17,5 +17,46 @@
             "description": "Tengo 10 años de experiencia en todas las fases del desarrollo de aplicaciones, trabajando principalmente en tecnología web (JavaScript, EM6, CSS, HTML, MongoDB, Express.JS, Angular 7, Node.JS, Socket.IO, PHP, SQL) como programador e iniciando en el mundo de Aplicaciones Móviles, para poder ofrecer un stack completo a quien lo necesite.",
             "message": "Listo para trabajar de manera individual como en equipo y dar lo mejor de mí."
         }
-    }
+    },
+    "tecnologias": [
+        [
+            {
+                "id": 1,
+                "tecnologia": "HTML",
+                "tec": "html"
+            },
+            {
+                "id": 2,
+                "tecnologia": "CSS",
+                "tec": "css"
+            },
+            {
+                "id": 3,
+                "tecnologia": "Sass",
+                "tec": "sass"
+            },
+            {
+                "id": 4,
+                "tecnologia": "JavaScript",
+                "tec": "js"
+            }
+        ],
+        [
+            {
+                "id": 5,
+                "tecnologia": "Bootstrap",
+                "tec": "bst"
+            },
+            {
+                "id": 6,
+                "tecnologia": "Git",
+                "tec": "git"
+            },
+            {
+                "id": 7,
+                "tecnologia": "WordPress",
+                "tec": "wp"
+            }
+        ]
+    ]
 }

@@ -18,11 +18,13 @@ export default function Servicios() {
 
     return (
         <div className='servicios'>
+            {/*
             <div className='servicios__parallax'>
                 <div className='servicios__parallax__element1'>
                     <img src={sphere} alt="Esfera" />
                 </div>
             </div>
+            */}
             <h2 className='servicios__title-h2'>Servicios<span>.</span></h2>
             <div className='servicios__row'>
                 <div className='servicios__row__column'>
