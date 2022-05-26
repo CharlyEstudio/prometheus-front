@@ -6,6 +6,7 @@ import './PrincipalPage.scss';
 // Containers
 import ServiciosContainer from '../ServiciosContainer/ServiciosContainer';
 import NavBarContainer from '../NavbarContainer/NavbarContainer';
+import TecnologiaContainer from '../TecnologiaContainer/TecnologiaContainer'
 
 export default class PrincipalPage extends Component {
   render() {
@@ -16,6 +17,7 @@ export default class PrincipalPage extends Component {
         </header>
         <div className='main'>
           <ServiciosContainer />
+          <TecnologiaContainer />
         </div>
         <footer>
           Footer
